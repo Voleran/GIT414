@@ -1,0 +1,33 @@
+/* CSS BY Benoit Hayek */
+/* CSS RESET */
+/* ROOT VARIABLES */
+/*  GLOBAL STYLES*/
+body {
+  margin: 0;
+  font-family: system-ui, Arial, sans-serif;
+}
+
+main {
+  padding: 16px;
+}
+/* MEDIA QUERY (medium) */
+@media (min-width: 768px) {
+main {
+    padding: 32px;
+  }
+}
+
+/* MEDIA QUERY (large) */
+@media (min-width: 1024px) {
+main {
+    padding: 48px;
+  }
+}
+
+/* MEDIA QUERY (xl) */
+@media (min-width: 1280px) {
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
